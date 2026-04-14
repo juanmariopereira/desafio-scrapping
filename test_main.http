@@ -1,0 +1,17 @@
+### Documentação interativa
+GET http://127.0.0.1:8000/docs
+Accept: text/html
+
+### Enfileirar scraping por CNPJ (202 Accepted)
+POST http://127.0.0.1:8000/scrape
+Content-Type: application/json
+
+{
+  "cnpj": "00006486000175"
+}
+
+### Consultar resultado (substitua o task_id)
+GET http://127.0.0.1:8000/results/00000000-0000-0000-0000-000000000000
+Accept: application/json
+
+###
