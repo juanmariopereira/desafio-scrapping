@@ -104,11 +104,12 @@ Resposta **202 Accepted** com:
 ```json
 { "task_id": "uuid" }
 ```
+![img.png](img.png)
 
 ### `GET /results/{task_id}`
 
 Retorna o registro da tarefa: `status` (`pending` \| `processing` \| `completed` \| `failed`), `result` (mapa de campos extraídos da página, quando houver), `error` (mensagem se falhou).
-
+![img_3.png](img_3.png)
 ## Variáveis de ambiente
 
 | Variável | Exemplo | Descrição |
